@@ -13067,11 +13067,11 @@ canvas {
   border-bottom-color: #4285f4;
 }
 .be-color-header .be-top-header .be-navbar-header .navbar-brand {
-  background-image: url(../img/TRK.png);
+  background-image: url(../img/logo-white.png);
 }
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
   .be-color-header .be-top-header .be-navbar-header .navbar-brand {
-    background-image: url(../img/TRK.png);
+    background-image: url(../img/logo-xx.png);
   }
 }
 .be-color-header .be-top-header .page-title {
