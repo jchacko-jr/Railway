@@ -20,7 +20,7 @@
 			$rc=$stmt->bind_param('sssssssss',$emp_fname, $emp_lname, $emp_phone, $emp_addr, $emp_nat_idno, $emp_uname, $emp_email, $emp_dept, $emp_pwd);
 			$stmt->execute();
 			/*
-			*Use Sweet Alerts Instead Of This Fucked Up Javascript Alerts
+			
 			*echo"<script>alert('Successfully Created Account Proceed To Log In ');</script>";
 			*/ 
 			//declare a varible which will be passed to alert function

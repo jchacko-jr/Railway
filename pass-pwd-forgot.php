@@ -18,7 +18,6 @@
 			$rc=$stmt->bind_param('ss', $email, $status);
 			$stmt->execute();
 			/*
-			*Use Sweet Alerts Instead Of This Fucked Up Javascript Alerts
 			*echo"<script>alert('Successfully Created Account Proceed To Log In ');</script>";
 			*/ 
 			//declare a varible which will be passed to alert function
@@ -55,7 +54,7 @@
         <div class="main-content container-fluid">
           <div class="splash-container forgot-password">
             <div class="card card-border-color card-border-color-success">
-              <div class="card-header"><img class="logo-img" src="assets/img/logo-xx.png" alt="logo" width="102" height="#{conf.logoHeight}"><span class="splash-description">Forgot your password?</span></div>
+              <div class="card-header"><img class="logo-img" src="assets/img/TRK.png" alt="logo" width="160" height="#{conf.logoHeight}"><span class="splash-description">Forgot your password?</span></div>
               <div class="card-body">
               <?php if(isset($success)) {?>
             <!--This code for injecting an alert-->
@@ -81,7 +80,7 @@
             <?php } ?>
               <!--Password Reset Form-->
                 <form method ="POST" >
-                  <p>Don't worry, we'll send you an email to reset your password.</p>
+                <center>Don't worry, we'll send you an email to reset your password.</center></p>
                   <div class="form-group pt-4">
                     <input class="form-control" type="email" name="email" required="" placeholder="Your Email" autocomplete="off">
                   </div>
