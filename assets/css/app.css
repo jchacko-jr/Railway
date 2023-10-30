@@ -4,7 +4,9 @@
  *
  * Copyright (c) 2019 Foxy Themes
  */
-
+ .navbar-brand {
+  background-image: url('../img/TRK.png') !important;
+}
 @media print {
   *,
   ::after,
@@ -12559,14 +12561,17 @@ canvas {
 .be-top-header .be-navbar-header .navbar-brand {
   line-height: 60px;
   height: 60px;
-  width: 142px;
+  width: 90px;
   background-image: url(../img/TRK.png);
+  background-size: contain;
+  background-position: right center; /* Adjusted to shift the image more to the center-right */
   background-repeat: no-repeat;
-  background-position: 20px center;
-  padding: 0 20px;
+  padding: 0 10px; /* Added padding to the left and right */
   margin: 0;
   display: block;
 }
+
+
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
   .be-top-header .be-navbar-header .navbar-brand {
     background-image: url(../img/TRK.png);
@@ -13067,11 +13072,11 @@ canvas {
   border-bottom-color: #4285f4;
 }
 .be-color-header .be-top-header .be-navbar-header .navbar-brand {
-  background-image: url(../img/logo-white.png);
+  background-image: url(../img/TRK.png);
 }
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
   .be-color-header .be-top-header .be-navbar-header .navbar-brand {
-    background-image: url(../img/logo-xx.png);
+    background-image: url(../img/TRK.png);
   }
 }
 .be-color-header .be-top-header .page-title {
@@ -17724,6 +17729,7 @@ li.L9 {
   min-width: 204px;
   background-image: url(../img/TRK.png);
   background-repeat: no-repeat;
+  background-size: contain;
   background-position: 0;
 }
 @media (max-width: 991.98px) {

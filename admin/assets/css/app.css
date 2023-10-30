@@ -12554,11 +12554,12 @@ canvas {
 .be-top-header .be-navbar-header .navbar-brand {
   line-height: 60px;
   height: 60px;
-  width: 142px;
+  width: 90px;
   background-image: url(../img/TRK.png);
+  background-size: contain;
+  background-position: right center; /* Adjusted to shift the image more to the center-right */
   background-repeat: no-repeat;
-  background-position: 20px center;
-  padding: 0 20px;
+  padding: 0 10px; /* Added padding to the left and right */
   margin: 0;
   display: block;
 }
@@ -17719,6 +17720,7 @@ li.L9 {
   min-width: 204px;
   background-image: url(../img/TRK.png);
   background-repeat: no-repeat;
+  background-size: contain;
   background-position: 0;
 }
 @media (max-width: 991.98px) {
