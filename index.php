@@ -6,12 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Track Ease </title>
     <meta name="description"
-          content="Knight is a beautiful Bootstrap 4 template for product landing pages."/>
+          content="TRACKEASE"/>
 
     <!--Inter UI font-->
     <link href="https://rsms.me/inter/inter-ui.css" rel="stylesheet">
 
     <!--vendors styles-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.19.0/font/bootstrap-icons.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.19.0/font/bootstrap-icons.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
@@ -35,18 +37,30 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+            <a class="nav-link page-scroll d-flex flex-row align-items-center text-primary" href="#features">
+                <i class="bi bi-house mr-2"></i>
+                Home
+            </a>
+        </li>
                     <li class="nav-item">
-                        <a class="nav-link page-scroll" href="#features">Home</a>
-                    </li>
+    <a class="nav-link page-scroll d-flex flex-row align-items-center text-primary" href="pass-login.php">
+        <i class="bi bi-ticket mr-2"></i>
+        Book Tickets
+    </a>
+</li>
                     <li class="nav-item">
-                        <a class="nav-link page-scroll" href="pass-login.php">BOOK Tickets</a>
-                    </li>
+    <a class="nav-link page-scroll d-flex flex-row align-items-center text-primary" href="pass-login.php">
+        <i class="fas fa-user-plus mr-2"></i>
+        Sign Up
+    </a>
+</li>
                     <li class="nav-item">
-                        <a class="nav-link page-scroll" href="pass-login.php">Sign Up</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link page-scroll" href="employee/emp-login.php">Employee LOGIN</a>
-                    </li>
+    <a class="nav-link page-scroll d-flex flex-row align-items-center text-primary" href="employee/emp-login.php">
+        <i class="fas fa-user mr-2"></i> <!-- Change to a user icon -->
+        Employee Login
+    </a>
+</li>
                     <li class="nav-item">
                         <a class="nav-link page-scroll d-flex flex-row align-items-center text-primary" href="admin/emp-login.php">
                             <em data-feather="layout" width="18" height="18" class="mr-2"></em>
@@ -198,7 +212,7 @@
         <div class="row mt-4">
             <div class="col-md-6 mx-auto text-center">
                 <h5 class="mb-4">Still have questions?</h5>
-                <a href="#" class="btn btn-primary">Contact TRACK EASE</a>
+                <a href="./contact/index.html" class="btn btn-primary">Contact TRACK EASE</a>
             </div>
         </div>
     </div>

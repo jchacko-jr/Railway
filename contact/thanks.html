@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thank You for Your Message</title>
+    <link rel="shortcut icon" type="image/jpg" href="news2.png">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@900&display=swap');
+
+        body {
+            background-color: #095a55;
+        }
+
+        section {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            text-align: center;
+        }
+
+        h2 {
+            font-family: 'Poppins', sans-serif;
+            font-weight: 700;
+            font-size: 36px;
+            color: #ffffff;
+        }
+
+        #countdown {
+            font-family: 'Poppins', sans-serif;
+            font-weight: 700;
+            font-size: 24px;
+            color: #ffffff;
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <h2>Thank You for Your Message</h2>
+        <div id="countdown">Redirecting in 4 seconds...</div>
+    </section>
+    <script>
+        // Define the target URL for redirection
+        var targetUrl = "../index.php";  // Replace with your desired URL
+        
+        // Initialize the countdown value
+        var countdownValue = 4;
+        
+        // Function to update the countdown timer and redirect
+        function updateCountdown() {
+            var countdownElement = document.getElementById("countdown");
+            countdownElement.textContent = "Redirecting in " + countdownValue + " seconds...";
+            countdownValue--;
+
+            if (countdownValue < 0) {
+                // Redirect to the target URL after the countdown
+                window.location.href = targetUrl;
+            } else {
+                // Schedule the next update in 1 second
+                setTimeout(updateCountdown, 1000);
+            }
+        }
+        
+        // Start the countdown
+        updateCountdown();
+    </script>
+</body>
+</html>
